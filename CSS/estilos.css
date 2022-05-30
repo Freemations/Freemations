@@ -429,5 +429,17 @@ p.boton_1:hover {
  	flex-direction: column;
 
 }
+	
+	.share-face {
+
+	padding-left:1%;
+	
+}
+
+.share-ig {
+
+	padding-left:1%;
+
+}
 
 }
