@@ -190,7 +190,7 @@ height:30%;
 
 div.end {
 
-background:#00334b;
+background: linear-gradient(to bottom, #00334b 0%, #080321 100%);
 width:100%;
 padding:5%;
 padding-bottom:15%;
