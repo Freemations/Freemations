@@ -1,1 +1,9 @@
 
+#Making a URL Mask.
+RewriteEngine On
+RewriteRUle ^example/?$ /example2/mask
+
+#Redirect a domain to a specific URL
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^freemations.ga
+RewriteRule ^(.*) http://www.freemations.ga/directory [P]
