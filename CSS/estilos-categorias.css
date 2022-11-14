@@ -1,1 +1,468 @@
+* {
 
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+
+	/*Si ocurren errores en la pagina prueba borrando display: block; */
+
+	font-family: Century Gothic;
+
+}
+
+/*Fuentes*/
+/*
+Fuente terror 1:
+font-family: 'Viaoda Libre', cursive;
+/*
+/*Fin fuentes*/
+
+title {display:none;}
+
+body {background:#fff;}
+
+a {
+
+	text-decoration:none;
+
+}
+
+h1 {
+
+color:#fff;
+font-family: 'Open Sans', sans-serif;
+background:#2D9FFF;
+padding:2%;
+
+
+position:relative;
+
+top:0px;
+
+}
+
+header.menu {
+
+	width:100%;
+
+}
+
+.menu_bar {
+
+	display:none;
+
+}
+
+.header_menu .nav_menu {
+
+	width:100%;
+	margin:0px;
+	background:#005FAF;
+	font-family: 'Baloo Tamma 2', cursive;
+	box-shadow: 0px 0px 20px #000;
+
+	margin-bottom:10%;
+
+}
+
+div.titulo_lista {
+
+	background:#00C0FF;
+	color:#fff;
+	font:bold;
+	font-size:180%;
+	padding:5%;
+	border-top-left-radius:1%;
+	border-top-right-radius:1%;
+	width:100%;
+
+}
+
+header nav ul {
+
+overflow:hidden;
+list-style:none;
+
+}
+
+header nav ul li {
+
+	float:left;
+
+}
+
+
+header nav ul li a {
+
+color:#fff;
+padding:20px;
+display:block;
+text-decoration:none;
+
+}
+
+header nav ul li img {
+
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+header nav ul li a:hover {
+
+	content:'';
+	background:#002545;
+  	transition:1s;
+
+}
+
+a.pointer {
+
+cursor:pointer;
+font-family: 'Inter', sans-serif;
+font:200%;
+
+}
+
+/**/
+
+.in-flex {
+
+	flex:1;
+
+}
+
+.in-flex:first-child {
+
+	flex:2;
+
+}
+
+li.li_lista_1 {
+
+	margin-top:10%;
+
+}
+
+li.li_lista_1 {
+	color:#fff;
+	display:block;
+	background:none;
+	padding:5%;
+	width:100%;
+	display:flex;
+	box-sizing:border-box;
+	padding-left:20%;
+
+}
+
+li a {
+
+	color:#fff;
+
+}
+
+a.link_lista_1 {
+
+	font-family: 'Viaoda Libre', cursive;
+	
+}
+
+p.boton_1 {
+
+	color:#fff;
+	font-size:150%;
+	font-weight:bold;
+	font-family: 'Nunito', sans-serif;
+	cursor:pointer;
+	transition: all 0.3s;
+	box-sizing: border-box;
+	margin:5%;
+
+}
+
+img.Portada_1 {
+
+width:416px;
+height:95%;
+
+}
+
+div.end {
+
+background: linear-gradient(to bottom, #00334b 0%, #080321 100%);
+width:100%;
+padding:5%;
+padding-bottom:15%;
+float:left;
+box-sizing: border-box;
+
+box-shadow:0px 0px 20px #000;
+
+position:relative;
+
+}
+
+p.creditos {
+
+	font-weight: bold;
+	color:#fff;
+	font-size:130%;
+
+}
+
+p.caja_invisible_end {
+
+		width:100%;
+		height:100%;
+		padding:10%;
+		display: flex;
+  flex-direction: column;
+
+}
+
+.share-face {
+
+	padding-left:5%;
+	
+}
+
+.share-ig {
+
+	padding-left:5%;
+
+}
+
+ul.ul_lista_1 {
+
+	color:#fff;
+	width:50%;
+	padding-bottom:10%;
+	margin-left:6%;
+	float:left;
+	list-style-type:none;
+
+	background:#787878;
+	border-radius: 0.5%;
+
+
+}
+
+li.li_lista_1 {
+
+	display:block;
+	padding:0%;
+	text-align:center;
+	width:100%;
+
+}
+
+/*Efectos*/
+
+p.boton_1:hover {
+
+  animation-duration: 1s;
+  animation-name: animacion_1;
+  transition:1s;
+
+}
+
+/*Corregir errores*/
+
+h1 {margin:0px;}
+
+/*Fin Corregir errores*/
+
+/*Animaciones*/
+
+p.boton_1:hover {
+
+	content:'';
+	color:#00ff59;
+	transition:1s;
+
+}
+
+/*Fin Animaciones*/
+
+/*Laptops y tablest*/
+
+@media screen and (max-width:800px) {
+
+	body {
+
+		background:#fff;
+
+	}
+
+	ul.ul_lista_1 {
+
+		margin:0px;
+		width:100%;
+		text-align:center;
+	}
+
+
+	img.Portada_1 {
+
+		max-width:350px;
+		max-height:30%; 
+		margin:0px;
+
+}
+
+	p.caja_invisible_end {
+
+	width:100%;
+	height:100%;
+	padding:10%;
+	padding-top:50%;
+	display: flex;
+ 	flex-direction: column;
+
+}
+	
+	.share-face {
+
+	padding-left:3%;
+	
+}
+
+.share-ig {
+
+	padding-left:3%;
+
+}
+
+}
+
+/*Ipad´s*/
+
+@media screen and (max-width:900px) {
+
+	body {
+
+		background:#fff;
+
+	}
+
+	h1 {
+
+		text-align: center;
+
+	}
+
+	ul.ul_lista_1 {
+
+		margin:0px;
+		width:100%;
+		text-align:center;
+	}
+
+
+	img.Portada_1 {
+
+		max-width:350px;
+		max-height:400px; 
+		margin:0px;
+
+}
+
+	p.caja_invisible_end {
+
+	width:100%;
+	height:100%;
+	padding:10%;
+	padding-top:50%;
+	display: flex;
+ 	flex-direction: column;
+
+}
+	
+	.share-face {
+
+	padding-left:2%;
+	
+}
+
+.share-ig {
+
+	padding-left:2%;
+
+}
+
+}
+
+
+/*Celulares*/
+
+@media screen and (max-width:400px) {
+
+
+	/*
+		Colorear toda la pagina si falla el responsive
+		background:yellow;
+	*/
+
+
+	body {
+
+		background:#fff;
+
+	}
+
+	h1 {
+
+		padding:5%;
+
+	}
+
+	li.li_lista_1 {
+
+		padding:0px;
+		font-size:100%;
+
+	}
+
+	ul.ul_lista_1 {
+
+		background:#909090;
+	width:100%;
+	float:left;
+	list-style-type:none;
+	margin-top:10%;
+
+	}
+
+	img.Portada_1 {
+
+		width:300px;
+		height:95%;
+		box-shadow: 0px 7px 15px #000;
+		border-radius:2%;
+
+	}
+
+	p.caja_invisible_end {
+
+	width:100%;
+	height:100%;
+	padding:10%;
+	padding-top:50%;
+	display: flex;
+ 	flex-direction: column;
+
+}
+	
+	.share-face {
+
+	padding-left:1%;
+	
+}
+
+.share-ig {
+
+	padding-left:1%;
+
+}
+
+}
