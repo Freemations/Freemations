@@ -306,7 +306,7 @@ p.boton_1:hover {
 	img.Portada_1 {
 
 		max-width:350px;
-		max-height:400px; 
+		max-height:30%; 
 		margin:0px;
 
 }
