@@ -84,11 +84,11 @@ header.menu {
 
 	width:100%;
 	margin:0px;
-	background: rgb(9,9,121);
-	background: -moz-linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
-	background: linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#ffffff",GradientType=1); ;
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d3ff",GradientType=1); 
 	font-family: 'Baloo Tamma 2', cursive;
 	box-shadow: 0px 0px 20px #000;
 
@@ -141,11 +141,6 @@ header nav ul li img {
 header nav ul li a:hover {
 
 	content:'';
-	background: rgb(0,0,0);
-	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d3ff",GradientType=1); 
   	transition:1s;
 
 }
