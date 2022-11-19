@@ -140,7 +140,11 @@ header nav ul li img {
 header nav ul li a:hover {
 
 	content:'';
-	background: #104d71;
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d3ff",GradientType=1); 
   	transition:1s;
 
 }
