@@ -347,8 +347,8 @@ figure.snip0015 {
   overflow: hidden;
   margin: 10px;
   min-width: 220px;
-  max-width: 310px;
-  max-height: 220px;
+  max-width: 550px;
+  max-height: 1000px;
   width: 100%;
   background: #000000;
   text-align: center;
@@ -408,6 +408,7 @@ figure.snip0015 h2 span {
 }
 figure.snip0015 p {
   font-weight: 200	;
+  font-size:200%;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
@@ -442,6 +443,22 @@ figure.snip0015:hover figcaption::before {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
+/*Boton volver hasta arriba de la pagina*/
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+/*Fin boton volver hastas*/
 
 /*Fin Animaciones*/
 

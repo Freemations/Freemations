@@ -1,0 +1,26 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+
+}
+
+.ir-arriba {
+
+
+  border-radius:50%;
+  background:#3AF4CD;
+  box-shadow:1px 1px 5px #000;
+
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
