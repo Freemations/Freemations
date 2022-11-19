@@ -137,7 +137,10 @@ header nav ul li a:hover {
 
 	content:'';
  	background: rgb(9,9,121);
-	background: linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%); 
+	background: -moz-linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#ffffff",GradientType=1); 
   	transition:1s;
 
 }
