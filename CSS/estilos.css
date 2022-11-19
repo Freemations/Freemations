@@ -10,6 +10,26 @@
 
 }
 
+/*Scrollbar*/
+
+scrollbar-face-color: #6685CA;
+
+scrollbar-highlight-color: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 23%, rgba(49,119,201,1) 55%, rgba(0,211,255,1) 80%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 23%, rgba(49,119,201,1) 55%, rgba(0,211,255,1) 80%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 23%, rgba(49,119,201,1) 55%, rgba(0,211,255,1) 80%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); ;
+
+scrollbar-shadow-color: #6685CA;
+
+scrollbar-3dlight-color:#FFFFFF;
+
+scrollbar-arrow-color:#FFFFFF;
+
+scrollbar-track-color:#E5E5E5;
+
+scrollbar-drakshadow-color:#000000;
+
 /*Fuentes*/
 /*
 
