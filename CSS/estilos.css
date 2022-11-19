@@ -27,6 +27,13 @@ a {
 	text-decoration:none;
 
 }
+.icono_1 {
+
+	height: 3%;
+	width: 3%;
+
+}
+
 
 h1 {
 
@@ -39,6 +46,24 @@ padding:2%;
 position:relative;
 
 top:0px;
+
+}
+
+form {
+
+	float: right;
+	width: 50%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-success {
+
+	background: #39ffd8;
+	color: #fff;
+	border-color: none;
+	border: 5px;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -229,7 +254,7 @@ p.caja_invisible_end {
 
 .share-ig {
 
-	padding-left:5%;
+	padding-left:1%;
 
 }
 
