@@ -442,20 +442,6 @@ figure.snip0015:hover figcaption::before {
   transition-delay: 0s;
 }
 
-
-/* Demo purposes only */
-html {
-  height: 100%;
-}
-body {
-  background-color: #212121;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  height: 100%;
-}
-
 /*Fin Animaciones*/
 
 /*Laptops y tablest*/
