@@ -55,6 +55,7 @@ form {
 	width: 50%;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 50%;
 }
 
 .btn-outline-success {
