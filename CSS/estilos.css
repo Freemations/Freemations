@@ -136,8 +136,8 @@ header nav ul li img {
 header nav ul li a:hover {
 
 	content:'';
-	background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 12%, rgba(0,212,255,1) 40%, rgba(140,247,255,1) 66%, rgba(186,255,247,1) 87%, rgba(255,255,255,1) 100%);
+ 	background: rgb(9,9,121);
+	background: linear-gradient(0deg, rgba(9,9,121,1) 10%, rgba(0,208,252,1) 51%, rgba(140,247,255,1) 76%, rgba(186,255,247,1) 84%, rgba(255,255,255,1) 100%); 
   	transition:1s;
 
 }
