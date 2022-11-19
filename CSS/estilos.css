@@ -161,7 +161,7 @@ header nav ul li img {
 header nav ul li a:hover {
 
 	content:'';
-	box-shadow: 2px 2px 10px #fff;
+	box-shadow: 2px 2px 10px #00FBFF;
 	background: rgb(0,0,0);
 	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
 	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
