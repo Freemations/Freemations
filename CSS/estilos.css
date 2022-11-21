@@ -54,7 +54,6 @@ a {
 
 }
 
-
 h1 {
 
 color:#fff;
@@ -112,6 +111,8 @@ header.menu {
 	font-family: 'Baloo Tamma 2', cursive;
 	box-shadow: 0px 0px 20px #000;
 
+	position:relative;
+
 	margin-bottom:10%;
 
 }
@@ -147,7 +148,7 @@ header nav ul li a {
 
 color:#fff;
 padding:20px;
-display:block;
+display:table;
 text-decoration:none;
 
 }
@@ -170,6 +171,33 @@ header nav ul li a:hover {
   	transition:1s;
 	color:#fff;
 	
+}
+
+button.btn-outline-success {
+
+	background-image: radial-gradient(circle at 0% 0%, #f4ff69 0, #d4ff75 10%, #b1ff81 20%, #8bff8d 30%, #5dff97 40%, #00ff9f 50%, #00f0a6 60%, #00e3ad 70%, #00d8b5 80%, #00cebd 90%, #00c7c6 100%);
+
+}
+
+a.btn-inicio-sesion {
+
+
+	color:#fff;
+	background-image: radial-gradient(circle at 0% 0%, #f4ff69 0, #d4ff75 10%, #b1ff81 20%, #8bff8d 30%, #5dff97 40%, #00ff9f 50%, #00f0a6 60%, #00e3ad 70%, #00d8b5 80%, #00cebd 90%, #00c7c6 100%);
+	box-shadow:2px 5px 8px #000000;
+	width:10%;
+	text-align:center;
+	float:right;
+	vertical-align: middle;
+	border-radius:5%;
+	padding-top:0.5%;
+
+	  position: absolute;
+    top: 25%;
+    left: 85%;
+    height: 50%;
+
+
 }
 
 a.pointer {
@@ -323,6 +351,20 @@ p.boton_1:hover {
 
 }
 
+button.btn-outline-success:hover {
+
+	background-image: radial-gradient(circle at 0% 0%, #ffd440 0, #ffda3b 5%, #f9e03b 10%, #e7e63f 15%, #d4eb46 20%, #c0f051 25%, #abf45d 30%, #93f76c 35%, #78fa7c 40%, #55fd8d 45%, #00ff9f 50%, #00ffb2 55%, #00ffc5 60%, #00ffd9 65%, #00ffec 70%, #00ffff 75%, #00ffff 80%, #00ffff 85%, #00ffff 90%, #00ffff 95%, #00feff 100%);
+}
+
+a.btn-inicio-sesion:hover {
+
+	animation-name: transicion_1;
+	animation-duration: 1s;
+
+	background-image: radial-gradient(circle at 0% 0%, #ffd440 0, #ffda3b 5%, #f9e03b 10%, #e7e63f 15%, #d4eb46 20%, #c0f051 25%, #abf45d 30%, #93f76c 35%, #78fa7c 40%, #55fd8d 45%, #00ff9f 50%, #00ffb2 55%, #00ffc5 60%, #00ffd9 65%, #00ffec 70%, #00ffff 75%, #00ffff 80%, #00ffff 85%, #00ffff 90%, #00ffff 95%, #00feff 100%);
+
+}
+
 /*Corregir errores*/
 
 h1 {margin:0px;}
@@ -336,6 +378,7 @@ p.boton_1:hover {
 	content:'';
 	color:#00ff59;
 	transition:1s;
+	transition: all .3s;
 
 }
 
@@ -447,6 +490,7 @@ figure.snip0015:hover figcaption::before {
 /*Boton volver hasta arriba de la pagina*/
 
 .ir-arriba {
+	z-index: 1;
 	display:none;
 	padding:20px;
 	background:#024959;
