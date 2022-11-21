@@ -1,0 +1,36 @@
+
+	<p class="Titulo_1">
+		
+		Redes sociales
+		
+	</p>
+		
+	<a class="Texto_1">
+	<img class="facebook.png"/>
+	
+	Facebook	
+		
+	</img>	
+	<a class="Texto_1">
+	
+		
+		
+	<a class="Texto_1">
+	<img class="ig.png"/>
+	
+	Instagram	
+		
+	</img>	
+	<a class="Texto_1">
+		
+	<p class="Texto_1">
+	<img class="discord.png"/>
+	
+	Proximamente...	
+		
+	</img>	
+	<a class="Texto_1">	
+		
+</div>
+	
+		
