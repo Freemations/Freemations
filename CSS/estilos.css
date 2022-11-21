@@ -60,6 +60,7 @@ color:#fff;
 font-family: 'Open Sans', sans-serif;
 background:#2D9FFF;
 padding:2%;
+z-index: 2;
 
 
 position:relative;
@@ -124,9 +125,11 @@ div.titulo_lista {
 	font:bold;
 	font-size:180%;
 	padding:5%;
+	margin:0%;
 	border-top-left-radius:1%;
 	border-top-right-radius:1%;
 	width:100%;
+
 
 }
 
@@ -168,7 +171,7 @@ header nav ul li a:hover {
 	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
 	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#4c3da7",GradientType=1); 
-  	transition:1s;
+  transition:1s;
 	color:#fff;
 	
 }
@@ -222,21 +225,16 @@ font:200%;
 
 }
 
-li.li_lista_1 {
-
-	margin-top:10%;
-
-}
 
 li.li_lista_1 {
 	color:#fff;
+	margin-top:10%;
 	display:block;
 	background:none;
-	padding:5%;
 	width:100%;
 	display:flex;
 	box-sizing:border-box;
-	padding-left:20%;
+
 
 }
 
@@ -323,6 +321,7 @@ ul.ul_lista_1 {
 	width:50%;
 	padding-bottom:10%;
 	margin-left:6%;
+	padding-left: 0%;
 	float:left;
 	list-style-type:none;
 
@@ -386,15 +385,17 @@ p.boton_1:hover {
 figure.snip0015 {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
+  box-shadow:4px 4px 10px #000;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin: 5%;
   min-width: 220px;
   max-width: 550px;
   max-height: 1000px;
-  width: 100%;
+  width: 97%;
   background: #000000;
   text-align: center;
+  	margin-left: 8%;
 }
 figure.snip0015 * {
   -webkit-box-sizing: border-box;
@@ -570,6 +571,13 @@ figure.snip0015:hover figcaption::before {
 	h1 {
 
 		text-align: center;
+		z-index:2;
+
+	}
+
+		figure.snip0015 {
+
+		margin-left:0;
 
 	}
 
@@ -617,7 +625,7 @@ figure.snip0015:hover figcaption::before {
 
 /*Celulares*/
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
 
 
 	/*
@@ -632,9 +640,18 @@ figure.snip0015:hover figcaption::before {
 
 	}
 
+	figure.snip0015 {
+
+		margin-left:1%;
+
+	}
+
 	h1 {
 
+		list-style-type: none;
 		padding:5%;
+		z-index: 2;
+		color:blue;
 
 	}
 
@@ -647,20 +664,11 @@ figure.snip0015:hover figcaption::before {
 
 	ul.ul_lista_1 {
 
-		background:#909090;
+	background:#909090;
 	width:100%;
 	float:left;
 	list-style-type:none;
 	margin-top:10%;
-
-	}
-
-	img.Portada_1 {
-
-		width:300px;
-		height:95%;
-		box-shadow: 0px 7px 15px #000;
-		border-radius:2%;
 
 	}
 
@@ -672,6 +680,13 @@ figure.snip0015:hover figcaption::before {
 	padding-top:50%;
 	display: flex;
  	flex-direction: column;
+
+}
+
+.snip0015 {
+
+margin:0%;
+padding:0%;
 
 }
 	
