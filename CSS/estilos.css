@@ -140,12 +140,14 @@ header nav ul li img {
 	vertical-align:middle;
 }
 
+
+
 header nav ul li a:hover {
 
 	content:'';
 	box-shadow: 2px 2px 10px #00FBFF;
 	background-image: linear-gradient(180deg, #e0497b 0, #ce427e 10%, #b63b7d 20%, #9a3376 30%, #7b2a6a 40%, #591f59 50%, #3a1446 60%, #200b35 70%, #0f0026 80%, #00001b 90%, #000011 100%);
-  	transition:1s;
+  	transition:0.5s;
 	color:#fff;
 	
 }
@@ -231,6 +233,7 @@ li a {
 
 	color:#fff;
 	font-family: 'Barlow', sans-serif;
+	padding:0%;
 
 }
 
@@ -512,9 +515,8 @@ nav.Nav_1 ul{
 nav.Nav_1 ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
-
 }
+
 nav.Nav_1 ul li a{
     color: #fff;
     font-size: 18px;
@@ -589,8 +591,6 @@ section{
 
     nav ul li{
         display: block;
-        margin: 50px 0;
-
         line-height: 30px;
     }
     nav ul li a{
@@ -873,6 +873,19 @@ header nav ul li a:hover {
   	transition:none;
 
 }
+
+nav.Nav_1 ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20%;
+    padding-bottom:  20%;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
 
 }
 
