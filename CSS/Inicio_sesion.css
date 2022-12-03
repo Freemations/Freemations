@@ -3,9 +3,6 @@
 	padding:0px;
 	margin:0px;
 	box-sizing: border-box;
-	text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
 
 	/*Si ocurren errores en la pagina prueba borrando display: block; */
 
@@ -68,29 +65,17 @@ z-index: 2;
 
 position:relative;
 
-top:0%;
+top:0px;
 
 }
 
-form.d-flex {
+form {
 
 	float: right;
 	width: 50%;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 50%;
-
-}
-
-form.d-flex-2 {
-
-	float: right;
-	width: 50%;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	border-radius: 50%;
-	display: none;
-
 }
 
 .btn-outline-success {
@@ -117,7 +102,19 @@ header.menu {
 
 .header_menu .nav_menu {
 
+	width:100%;
+	margin:0px;
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d3ff",GradientType=1); 
+	font-family: 'Baloo Tamma 2', cursive;
+	box-shadow: 0px 0px 20px #000;
 
+	position:relative;
+
+	margin-bottom:10%;
 
 }
 
@@ -136,12 +133,6 @@ div.titulo_lista {
 
 }
 
-nav{
-
-z-index: 1;
-
-}
-
 header nav ul {
 
 overflow:hidden;
@@ -155,6 +146,16 @@ header nav ul li {
 
 }
 
+
+header nav ul li a {
+
+color:#fff;
+padding:20px;
+display:table;
+text-decoration:none;
+
+}
+
 header nav ul li img {
 
 	margin-right:10px;
@@ -165,7 +166,11 @@ header nav ul li a:hover {
 
 	content:'';
 	box-shadow: 2px 2px 10px #00FBFF;
-background-image: linear-gradient(180deg, #e0497b 0, #ce427e 10%, #b63b7d 20%, #9a3376 30%, #7b2a6a 40%, #591f59 50%, #3a1446 60%, #200b35 70%, #0f0026 80%, #00001b 90%, #000011 100%);
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#4c3da7",GradientType=1); 
   transition:1s;
 	color:#fff;
 	
@@ -236,8 +241,13 @@ li.li_lista_1 {
 li a {
 
 	color:#fff;
-	font-family: 'Barlow', sans-serif;
 
+}
+
+a.link_lista_1 {
+
+	font-family: 'Viaoda Libre', cursive;
+	
 }
 
 p.boton_1 {
@@ -305,10 +315,21 @@ p.caja_invisible_end {
 
 }
 
+p.titulo_1 {
+
+
+	color: #121212;
+	margin-left: 45%;
+	font-size: 200%;
+		font-family: 'Open Sans', sans-serif;
+
+}
+
 ul.ul_lista_1 {
 
 	color:#fff;
 	width:50%;
+	padding-bottom:10%;
 	margin-left:6%;
 	padding-left: 0%;
 	float:left;
@@ -328,6 +349,33 @@ li.li_lista_1 {
 	width:100%;
 
 }
+
+/*Estilos inicio de sesion*/
+
+input.Ingresar_contraseña {
+
+	border-radius: 1%;
+	padding: 1%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 2.5%;
+
+}
+
+button.btn_inicio_sesion {
+
+	color: #fff;
+	background: #0bdf02;
+	padding: 1%;
+	border-radius: 5%;
+	font-family: 'Open Sans', sans-serif;
+		width: 50%;
+		margin-left: 25%;
+	margin-top: 2.5%;
+
+}
+
+/*Fin estilos inicio de sesion*/
 
 /*Efectos*/
 
@@ -355,10 +403,7 @@ a.btn-inicio-sesion:hover {
 
 /*Corregir errores*/
 
-h1 {
-	margin:0px;
-
-}
+h1 {margin:0px;}
 
 /*Fin Corregir errores*/
 
@@ -480,135 +525,6 @@ figure.snip0015:hover figcaption::before {
   transition-delay: 0s;
 }
 
-
-
-nav.Nav_1 {
-	width:100%;
-	margin:0px;
-	background: rgb(0,0,0);
-	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,4,59,1) 28%, rgba(0,97,191,1) 69%, rgba(0,211,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d3ff",GradientType=1); 
-	font-family: 'Baloo Tamma 2', cursive;
-	box-shadow: 0px 0px 20px #000;
-
-
-	position:relative;
-
-	margin-bottom:10%;
-    width: 100%;
-    color:#fff;
-    padding: 0;
-display:table;
-text-decoration:none;
-}
-
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    height: 40px;
-}
-nav.Nav_1 ul{
-    float: left;
-    margin-right: 20px;
-}
-nav.Nav_1 ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-
-}
-nav.Nav_1 ul li a{
-    color: #fff;
-    font-size: 18px;
-    padding: 100px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    z-index: 0;
-}
-
-div.menu_bar {
-
-	z-index: 0;
-	position: relative;
-
-}
-
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 10%;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-section{
-    background: url(fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
-
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        display: block;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 0;
-        left: 100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: -100;
-    }
-
-    li.caja_invisible_li {
-
-    	width: 100%;
-    	height: 25%;
-
-    }
-
-
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    font-family: 'Barlow', sans-serif;
-    }
-    li a:hover, li a.active{
-        background: none;
-        color: red;
-    }
-    #check:checked ~ ul{
-        left:0;
-    }
-}
-
 /*Boton volver hasta arriba de la pagina*/
 
 .ir-arriba {
@@ -635,12 +551,6 @@ section{
 	body {
 
 		background:#fff;
-
-	}
-
-	h1 {
-
-			list-style:none;
 
 	}
 
@@ -697,9 +607,8 @@ section{
 
 	h1 {
 
-		list-style:none;
 		text-align: center;
-		z-index:100;
+		z-index:2;
 
 	}
 
@@ -747,11 +656,6 @@ section{
 	padding-left:2%;
 
 }
-}
-
-ul {
-
-	margin: 0;
 
 }
 
@@ -769,55 +673,9 @@ ul {
 
 	body {
 
-	background:#fff;
+		background:#fff;
 
 	}
-
-	img.icono_1 {
-
-		width: 10%;
-
-	}
-
-
-header nav ul li a:hover {
-
-	content:'';
-	box-shadow: 2px 2px 10px #00FBFF;
-	background: rgb(0,0,0);
-	background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,4,59,1) 33%, rgba(76,61,167,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#4c3da7",GradientType=1); 
-  transition:1s;
-	color:#fff;
-	
-}
-
-	h1 {
-
-		color: #fff;
-
-	}
-
-	.d-flex {
-
-display:  none;
-
-	}
-
-	.btn-outline-success {
-
-display:  none;
-
-	}
-
-	input.form-control {
-
-		display: none;
-
-	}
-
 
 	figure.snip0015 {
 
@@ -827,11 +685,10 @@ display:  none;
 
 	h1 {
 
-		list-style:none;
+		list-style-type: none;
 		padding:5%;
 		z-index: 2;
-		text-decoration: none;
-
+		color:blue;
 
 	}
 
