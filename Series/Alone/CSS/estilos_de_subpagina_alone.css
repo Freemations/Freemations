@@ -3,6 +3,7 @@
 	padding:0px;
 	margin:0px;
 	box-sizing: border-box;
+	 overflow-x: hidden;
 
 	/*Si ocurren errores en la pagina prueba borrando display: block; */
 
@@ -323,6 +324,24 @@ p.boton_regresar:hover {
 }
 
 
+
+iframe.img_1 {
+
+width:1000px;
+margin-left:30%;
+height:414px;
+position:relative;
+
+	left:40px;
+
+}
+
+.musica {
+
+background none
+
+
+}
 
 @media screen and (max-width:400px) {
 
