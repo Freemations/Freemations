@@ -229,7 +229,7 @@ p.boton_1:hover {
 p.boton_1:hover {
 
 	content:'';
-	color: red;
+	color: fff;
 	text-shadow: 0px 12px 2px #840000;
 	text-shadow: 0px 24px 2px #840000;
 	transition:1s;
