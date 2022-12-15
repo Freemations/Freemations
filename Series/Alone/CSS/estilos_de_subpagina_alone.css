@@ -40,6 +40,12 @@ a {
 
 }
 
+.Fondo-negro {
+
+width:100%; height:100%; background:#fff; box-shadow: 200px 200px 100px 300px #fff;
+
+}
+
 .caja_titulo {
 
 	display: block;
@@ -80,6 +86,15 @@ img.banner_1 {
 
 }
 
+img.img_1 {
+
+	width:100%;
+	margin:=%;
+	padding:4%;
+	background:red;
+
+}
+
 p.boton_regresar {
 
 	font-size:150%;
@@ -117,7 +132,7 @@ p.texto_1 {
 	font-family: 'Montserrat', sans-serif;
 	background:none;
 
-	color:#fff;
+	color:#000;
 
 	width:100%;
 	padding-top:15%;
@@ -146,12 +161,7 @@ p.texto_2 {
 
 }
 
-img.img_1 {
-
-width:40%;
-height:auto;
-
-}
+if
 
 p.caja_invisible {
 
@@ -339,10 +349,12 @@ p.boton_regresar:hover {
 
 iframe.img_1 {
 
-width:1000px;
+width:100%;
 margin-left:10%;
-height:1500px;
+height:100%;
 position:relative;
+     overflow-y:hidden;
+          overflow-x:hidden;
 
 	left:40px;
 
@@ -407,9 +419,9 @@ background none
 
 	}
 
-	img.img_1 {
+	img {
 
-		width:90%;
+		width:100%;
 		height:auto;
 
 	}
