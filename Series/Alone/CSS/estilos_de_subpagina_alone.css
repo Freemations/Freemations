@@ -76,7 +76,7 @@ img.banner_1 {
 
 	display: block;
 	width:100%;
-	height:50%;
+	height:100%;
 
 }
 
@@ -84,12 +84,12 @@ p.boton_regresar {
 
 	font-size:150%;
 	font-weight:bold;
-font-family: 'Prompt', sans-serif;
+	font-family: 'Viaoda Libre', cursive;
 	cursor:pointer;
 	transition: all 0.3s;
 	box-sizing: border-box;
 	padding-left:5%;
-	color:#00ECFF;
+	color:#900000;
 
 }
 
@@ -105,7 +105,7 @@ p.boton_1 {
 	padding-left:10%;
 	font-size:150%;
 	font-weight:bold;
-font-family: 'Prompt', sans-serif;
+	font-family: 'Viaoda Libre', cursive;
 	cursor:pointer;
 	transition: all 0.3s;
 
@@ -114,30 +114,33 @@ font-family: 'Prompt', sans-serif;
 
 p.texto_1 {
 
+	font-family: 'Montserrat', sans-serif;
 	background:none;
 
 	color:#fff;
 
 	width:100%;
 	padding-top:15%;
-	padding-left:25%;
-	padding-right:25%;
-	padding-bottom:5%;
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:0%;
 	text-align:center;
 	font-size:120%;
 
 }
-
 p.texto_2 {
+
+	font-family: 'Montserrat', sans-serif;
 
 	background:none;
 
 	color:#fff;
 
 	width:100%;
-	padding-top:5%;
-	padding-left:25%;
-	padding-right:25%;
+	padding-left:20%;
+	padding-right:20%;
+	padding-top:1%;
+	padding-bottom:0%;
 	text-align:center;
 	font-size:120%;
 
@@ -147,6 +150,15 @@ img.img_1 {
 
 width:40%;
 height:auto;
+
+}
+
+p.caja_invisible {
+
+width:100%;
+height:10%;
+padding:10%;
+background: none;
 
 }
 
@@ -229,7 +241,7 @@ p.boton_1:hover {
 p.boton_1:hover {
 
 	content:'';
-	color: fff;
+	color: red;
 	text-shadow: 0px 12px 2px #840000;
 	text-shadow: 0px 24px 2px #840000;
 	transition:1s;
@@ -328,8 +340,8 @@ p.boton_regresar:hover {
 iframe.img_1 {
 
 width:1000px;
-margin-left:30%;
-height:414px;
+margin-left:10%;
+height:1500px;
 position:relative;
 
 	left:40px;

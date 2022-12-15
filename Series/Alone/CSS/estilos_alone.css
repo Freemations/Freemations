@@ -405,99 +405,31 @@ left:40%;
 
 /*Fin Animaciones*/
 
+/*Laptops y tablest*/
 
 @media screen and (max-width:800px) {
 
-	body {
-
-		background:#000;
-
-	}
-
-	p.caja_invisible_end {
-
-	width:100%;
-	height:100%;
-	padding:10%;
-	padding-top:50%;
-	display: flex;
- 	flex-direction: column;
-
-}
-
-	img.img_1 {
-
-	margin-right:15%;
-	display:block;
-	padding-right:10%;
-	padding-top:10%;
-	width:60%;
-	height:auto;
-
-}
-
-ul {
-
-	width:100%;
-	float:left;
-	padding-left:10%;
-	list-style-type:none;
-
-}
 
 
 }
 
+/*Ipad´s*/
 
-/*Animaciones*/
-
-@media screen and (max-width:400px) {
-
-
-	/*
-		Colorear toda la pagina si falla el responsive
-		background:yellow;
-	*/
-
-
-	body {
-
-		background:#000;
-
-	}
-
-
-
-	p.caja_invisible_end {
-
-	width:100%;
-	height:100%;
-	padding:10%;
-	padding-top:50%;
-	display: flex;
- 	flex-direction: column;
+@media screen and (max-width:900px) {
 
 }
 
-	img.img_1 {
+/*Celulares*/
 
-	margin-right:15%;
-	display:block;
-	padding-right:10%;
-	padding-top:10%;
-	width:60%;
-	height:auto;
+@media screen and (max-width:415px) {
 
-}
 
-ul {
+a.link_1 {
 
-	width:100%;
-	float:left;
-	padding-left:15%;
-	list-style-type:none;
+font-size:500%;
 
 }
+
 
 
 }
