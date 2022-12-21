@@ -1,0 +1,435 @@
+* {
+
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+
+	/*Si ocurren errores en la pagina prueba borrando display: block; */
+
+	font-family: Century Gothic;
+
+}
+
+/*Fuentes*/
+/*
+
+Fuente terror 1:
+font-family: 'Viaoda Libre', cursive;
+
+Fuente terror 2:
+
+font-family: 'Architects Daughter', cursive;
+
+Fuente de escritura a mano 1:
+
+    font-family: 'Architects Daughter', cursive;
+
+    font-family: 'Gloria Hallelujah', cursive;
+
+/*
+/*Fin fuentes*/
+
+title {display:none;}
+
+body {background: #00ff70;}
+
+a {
+
+	text-decoration:none;
+
+}
+
+p.borrar_android {
+
+	display:none;
+
+}
+
+.caja_titulo {
+
+	display: block;
+	float:left;
+	display: block;
+	background:#000;
+	padding:2%;
+	padding-left:9%;
+	width:100%;
+	height:16%;
+	text-align: center;
+
+}
+
+h1 {
+
+font-family: 'Rubik Puddles', cursive;
+font-size: 50%;
+	color:#fff;
+	background: rgb(0,47,79);
+background: linear-gradient(0deg, rgba(0,47,79,1) 0%, rgba(9,121,101,1) 24%, rgba(30,255,147,1) 72%, rgba(255,255,255,1) 100%);
+	display: block;
+	font-size:250%;
+
+	padding-top:5%;
+	padding-right:5%;
+	padding-bottom: 5%;
+	
+}
+
+img.banner_1 {
+
+	display: block;
+	width:100%;
+	height:50%;
+
+}
+
+p.boton_regresar {
+
+	font-size:150%;
+	font-weight:bold;
+	font-family: 'Viaoda Libre', cursive;
+	cursor:pointer;
+	transition: all 0.3s;
+	box-sizing: border-box;
+	padding-left:5%;
+	color:#fff;
+	padding:2%;
+
+}
+
+
+a.lista_1 {
+
+	font-family: 'Viaoda Libre', cursive;	
+	
+}
+
+p.boton_1 {
+
+	padding-left:10%;
+	font-size:150%;
+	font-weight:bold;
+	font-family: 'Viaoda Libre', cursive;
+	cursor:pointer;
+	transition: all 0.3s;
+
+}
+
+
+div.texto_1 {
+
+	background:none;
+
+	color:#fff;
+
+	width:100%;
+	padding-top:15%;
+	padding-left:25%;
+	padding-right:25%;
+	padding-bottom:5%;
+	text-align:center;
+	font-size:120%;
+
+}
+
+div.texto_2 {
+
+	background:none;
+
+	color:#fff;
+
+	width:100%;
+	padding-top:5%;
+	padding-left:25%;
+	padding-right:25%;
+	text-align:center;
+	font-size:120%;
+
+}
+
+img.img_1 {
+
+width:90%;
+height:auto;
+
+}
+
+div.end {
+
+background:url(../Imagenes/Patron_1.png);
+width:100%;
+padding:10%;
+float:left;
+
+position:relative;
+
+}
+
+p.creditos {
+
+	font-weight: bold;
+	color:#fff;
+	font-size:110%;
+
+	position:absolute;
+
+	bottom:30%;
+
+}
+
+p.creditos_img {
+
+	color:#fff;
+	padding-top:5%;
+	padding-bottom:15%;
+
+}
+
+audio.bgsound {
+
+	width:100%;
+	background:#840000;
+
+	color:#840000;
+}
+
+.titulo_cancion {
+
+color:#fff;
+font-size:140%;
+padding:2%;
+padding-left:5%;
+
+}
+
+div.frase_1 {
+
+	font-size:120%;
+	text-shadow:4px 25px 2px red;
+
+}	
+
+/*Efectos*/
+
+p.boton_regresar {
+
+	animation-duration: 1s;
+  	animation-name: animacion_1;
+  	transition:1s;
+
+}
+
+p.boton_1:hover {
+
+  animation-duration: 1s;
+  animation-name: animacion_1;
+  transition:1s;
+
+}
+
+/*Animaciones*/
+
+p.boton_1:hover {
+
+	content:'';
+	color: red;
+	text-shadow: 0px 12px 2px #840000;
+	text-shadow: 0px 24px 2px #840000;
+	transition:1s;
+
+}
+
+p.boton_regresar:hover {
+
+	content:'';
+	color: #121212;
+	transition:1s;
+
+}
+
+/*Fin Animaciones*/
+
+
+
+
+@media screen and (max-width:800px) {
+
+	body {
+
+		background:red;
+
+	}
+
+	p.boton_regresar {
+
+		margin-bottom:2%;
+
+	}
+
+	p.titulo_cancion {
+
+	background:#840000;
+
+	}
+
+	audio.bgsound {
+
+		box-shadow: 0px 1px 10px #000;
+
+	}
+
+	h1 {
+
+		font-size: 300%;
+
+	}
+
+
+	div.texto_1 {
+
+		font-size: 140%;
+		width:95%;
+		margin:2%;
+		margin-left:2%;
+		padding:10%;
+		padding-top:25%;
+		box-sizing: border-box;
+		text-align:justify;
+
+	}
+
+	img.img_1 {
+
+		width:90%;
+		height:auto;
+
+	}
+
+		div.texto_2 {
+
+		font-size: 140%;
+		width:90%;
+		margin:2%;
+		margin-left:5%;
+		padding:5%;
+		padding-top:5%;
+		box-sizing: border-box;
+		text-align:justify;
+
+	}
+
+	p.creditos_img {
+
+		font-size:120%;
+
+	}
+
+
+	div.frase_1 {
+
+	padding-bottom:10%;
+
+	}	
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+
+	/*
+		Colorear toda la pagina si falla el responsive
+		background:yellow;
+	*/
+
+
+	body {
+
+		background:red;
+
+	}
+
+	p.borrar_android {
+
+		display:block;
+
+	}
+
+	p.boton_regresar {
+
+		margin-bottom:5%;
+		color:#900000;
+
+	}
+
+	p.titulo_cancion {
+
+	background:#840000;
+
+	}
+
+	audio.bgsound {
+
+		box-shadow: 0px 1px 10px #000;
+
+	}
+
+	h1 {
+
+		margin-bottom:10%;
+
+	}
+
+	div.texto_1 {
+
+		width:95%;
+		margin:2%;
+		margin-left:2%;
+		padding:10%;
+		padding-top:30%;
+		box-sizing: border-box;
+		text-align:justify;
+
+	}
+
+	img.img_1 {
+
+		width:90%;
+		height:auto;
+
+	}
+
+		div.texto_2 {
+
+		width:90%;
+		margin:2%;
+		margin-left:5%;
+		padding:5%;
+		padding-top:15%;
+		box-sizing: border-box;
+		text-align:justify;
+
+	}
+
+	div.frase_1 {
+
+	padding-bottom:10%;
+
+	}		
+
+	p.creditos_img {
+
+		padding:5%;
+		margin-top:10%;
+		font-size:100%;
+
+	}
+
+	div.end {
+
+		padding:10%;
+
+	}
+
+}

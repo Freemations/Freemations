@@ -1,0 +1,290 @@
+* {
+
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+
+	/*Si ocurren errores en la pagina prueba borrando display: block; */
+
+}
+
+/*Fuentes*/
+
+/*Fin fuentes*/
+
+title {display:none;}
+
+body {background:red;}
+
+a {
+
+	text-decoration:none;
+
+}
+
+.caja_titulo {
+
+	display: block;
+	float:left;
+	display: block;
+	background:#000;
+	padding:2%;
+	padding-left:9%;
+	width:100%;
+	height:16%;
+	box-sizing: border-box;
+
+}
+
+h1 {
+
+	font-family: 'Island Moments', cursive;
+	color:#fff;
+	display: block;
+	font-size:250%;
+
+}
+
+img.banner_1 {
+
+	display: block;
+	width:100%;
+	height:50%;
+
+}
+
+ul {
+
+	color:#fff;
+	width:40%;
+	float:left;
+	list-style-type:none;
+
+}
+
+.in-flex {
+
+	flex:1;
+
+}
+
+.in-flex:first-child {
+
+	flex:2;
+
+}
+
+li.lista_1 {
+
+	margin-top:10%;
+
+}
+
+li {
+	color:#fff;
+	display:block;
+	background:none;
+	padding:5%;
+	width:100%;
+	display:flex;
+	box-sizing:border-box;
+	padding-left:20%;
+
+}
+
+li a {
+
+	color:#fff;
+
+}
+
+a.lista_1 {
+
+	font-family: 'Viaoda Libre', cursive;
+	
+}
+
+p.boton_1 {
+
+	font-size:150%;
+	font-weight:bold;
+	font-family: 'Viaoda Libre', cursive;
+	cursor:pointer;
+	transition: all 0.3s;
+	box-sizing: border-box;
+
+}
+
+img.img_1 {
+
+margin-right:15%;
+display:block;
+float: right;
+width:20%;
+height:auto;
+
+}
+
+img.img_2 {
+
+margin-right:15%;
+float: right;
+display: none;
+width:40%;
+height:auto;
+
+}
+
+div.end {
+
+background:url(../Imagenes/Patron_1.png);
+width:100%;
+padding:10%;
+float:left;
+box-sizing: border-box;
+
+position:relative;
+
+}
+
+p.creditos {
+
+	font-weight: bold;
+	color:#fff;
+	font-size:110%;
+
+	position:absolute;
+
+	bottom:30%;
+
+}
+
+p.caja_invisible_end {
+
+		width:100%;
+		height:100%;
+		padding:10%;
+		display: flex;
+  flex-direction: column;
+
+}
+
+/*Efectos*/
+
+p.boton_1:hover {
+
+  animation-duration: 1s;
+  animation-name: animacion_1;
+  transition:1s;
+
+}
+
+/*Animaciones*/
+
+p.boton_1:hover {
+
+	content:'';
+	color: red;
+	text-shadow: 0px 12px 2px #840000;
+	text-shadow: 0px 24px 2px #840000;
+	transition:1s;
+
+}
+
+/*Fin Animaciones*/
+
+
+@media screen and (max-width:800px) {
+
+	body {
+
+		background:#000;
+
+	}
+
+	p.caja_invisible_end {
+
+	width:100%;
+	height:100%;
+	padding:10%;
+	padding-top:50%;
+	display: flex;
+ 	flex-direction: column;
+
+}
+
+	img.img_1 {
+
+	margin-right:15%;
+	display:block;
+	padding-right:10%;
+	padding-top:10%;
+	width:60%;
+	height:auto;
+
+}
+
+ul {
+
+	width:100%;
+	float:left;
+	padding-left:10%;
+	list-style-type:none;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+
+	/*
+		Colorear toda la pagina si falla el responsive
+		background:yellow;
+	*/
+
+
+	body {
+
+		background:#000;
+
+	}
+
+
+
+	p.caja_invisible_end {
+
+	width:100%;
+	height:100%;
+	padding:10%;
+	padding-top:50%;
+	display: flex;
+ 	flex-direction: column;
+
+}
+
+	img.img_1 {
+
+	margin-right:15%;
+	display:block;
+	padding-right:10%;
+	padding-top:10%;
+	width:60%;
+	height:auto;
+
+}
+
+ul {
+
+	width:100%;
+	float:left;
+	padding-left:15%;
+	list-style-type:none;
+
+}
+
+
+}
