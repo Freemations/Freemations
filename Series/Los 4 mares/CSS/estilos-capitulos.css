@@ -50,9 +50,7 @@ p.borrar_android {
 	display: block;
 	float:left;
 	display: block;
-	background:#000;
-	padding:2%;
-	padding-left:9%;
+	background:;
 	width:100%;
 	height:16%;
 	text-align: center;
@@ -61,13 +59,15 @@ p.borrar_android {
 
 h1 {
 
-font-family: 'Rubik Puddles', cursive;
-font-size: 50%;
+font-family: 'Kanit', sans-serif;
+font-size: 200%;
 	color:#fff;
 	background: rgb(0,47,79);
 background: linear-gradient(0deg, rgba(0,47,79,1) 0%, rgba(9,121,101,1) 24%, rgba(30,255,147,1) 72%, rgba(255,255,255,1) 100%);
 	display: block;
 	font-size:250%;
+	box-shadow: 4px 4px 10px #060311;
+	margin-top:0%;
 
 	padding-top:5%;
 	padding-right:5%;
@@ -75,25 +75,19 @@ background: linear-gradient(0deg, rgba(0,47,79,1) 0%, rgba(9,121,101,1) 24%, rgb
 	
 }
 
-img.banner_1 {
-
-	display: block;
-	width:100%;
-	height:50%;
-
-}
-
 p.boton_regresar {
 
 	font-size:150%;
 	font-weight:bold;
-	font-family: 'Viaoda Libre', cursive;
+	font-family: 'PT Sans', sans-serif;
 	cursor:pointer;
 	transition: all 0.3s;
 	box-sizing: border-box;
-	padding-left:5%;
+	padding-left:0%;
 	color:#fff;
 	padding:2%;
+	margin-bottom:0;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 
 }
 
@@ -103,18 +97,6 @@ a.lista_1 {
 	font-family: 'Viaoda Libre', cursive;	
 	
 }
-
-p.boton_1 {
-
-	padding-left:10%;
-	font-size:150%;
-	font-weight:bold;
-	font-family: 'Viaoda Libre', cursive;
-	cursor:pointer;
-	transition: all 0.3s;
-
-}
-
 
 div.texto_1 {
 
@@ -160,7 +142,6 @@ background:url(../Imagenes/Patron_1.png);
 width:100%;
 padding:10%;
 float:left;
-
 position:relative;
 
 }
@@ -232,7 +213,7 @@ p.boton_1:hover {
 p.boton_1:hover {
 
 	content:'';
-	color: red;
+	color: #aed500;
 	text-shadow: 0px 12px 2px #840000;
 	text-shadow: 0px 24px 2px #840000;
 	transition:1s;
@@ -242,7 +223,7 @@ p.boton_1:hover {
 p.boton_regresar:hover {
 
 	content:'';
-	color: #121212;
+	color: #000000;
 	transition:1s;
 
 }
@@ -298,12 +279,14 @@ p.boton_regresar:hover {
 
 	}
 
-	img.img_1 {
+img.img_1 {
 
-		width:90%;
-		height:auto;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding:0%;
 
-	}
+}
+
 
 		div.texto_2 {
 
@@ -393,12 +376,14 @@ p.boton_regresar:hover {
 
 	}
 
-	img.img_1 {
+img.img_1 {
 
-		width:90%;
-		height:auto;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding:0%;
 
-	}
+}
+
 
 		div.texto_2 {
 
