@@ -98,6 +98,7 @@ a.lista_1 {
 	
 }
 
+
 div.texto_1 {
 
 	background:none;
@@ -133,6 +134,7 @@ img.img_1 {
 
 width:90%;
 height:auto;
+margin:0%;
 
 }
 
@@ -155,14 +157,6 @@ p.creditos {
 	position:absolute;
 
 	bottom:30%;
-
-}
-
-p.creditos_img {
-
-	color:#fff;
-	padding-top:5%;
-	padding-bottom:15%;
 
 }
 
@@ -228,6 +222,13 @@ p.boton_regresar:hover {
 
 }
 
+img {
+
+	padding:-5%;
+	display:block;
+
+}
+
 /*Fin Animaciones*/
 
 
@@ -278,14 +279,6 @@ p.boton_regresar:hover {
 		text-align:justify;
 
 	}
-
-img.img_1 {
-
-	margin-top:0%;
-	margin-bottom:0%;
-	padding:0%;
-
-}
 
 
 		div.texto_2 {
@@ -375,15 +368,6 @@ img.img_1 {
 		text-align:justify;
 
 	}
-
-img.img_1 {
-
-	margin-top:0%;
-	margin-bottom:0%;
-	padding:0%;
-
-}
-
 
 		div.texto_2 {
 
