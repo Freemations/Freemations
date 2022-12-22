@@ -236,12 +236,6 @@ img {
 
 @media screen and (max-width:800px) {
 
-	body {
-
-		background:red;
-
-	}
-
 	p.boton_regresar {
 
 		margin-bottom:2%;
