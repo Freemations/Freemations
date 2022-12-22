@@ -320,12 +320,6 @@ img {
 	*/
 
 
-	body {
-
-		background:red;
-
-	}
-
 	p.borrar_android {
 
 		display:block;
@@ -335,6 +329,7 @@ img {
 	p.boton_regresar {
 
 		margin-bottom:5%;
+		padding:5%;
 		color:#900000;
 
 	}
@@ -398,6 +393,12 @@ img {
 	div.end {
 
 		padding:10%;
+
+	}
+
+	img {
+
+		width:95%;
 
 	}
 
