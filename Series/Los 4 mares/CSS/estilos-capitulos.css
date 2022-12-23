@@ -142,7 +142,10 @@ div.end {
 
 background:url(../Imagenes/Patron_1.png);
 width:100%;
-padding:10%;
+background:#102f72;
+margin-top:5%;
+box-shadow:5px 5px 5px 10px #052d20;
+padding:5%;
 float:left;
 position:relative;
 
@@ -151,8 +154,10 @@ position:relative;
 p.creditos {
 
 	font-weight: bold;
+	font-family: 'Chivo Mono', monospace;
 	color:#fff;
-	font-size:110%;
+	background:#102f72;
+	font-size:150%;
 
 	position:absolute;
 
