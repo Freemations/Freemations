@@ -1,0 +1,14 @@
+<?php
+   $host = "host_name";
+   $user = "username";
+   $password = "password";
+   $dbname = "database_name";
+
+   // Crea conexión
+   $conn = mysqli_connect($host, $user, $password, $dbname);
+   // Verifica conexión
+   if (!$conn) {
+      die("Conexión fallida: " . mysqli_connect_error());
+   }
+   echo "Conexión exitosa";
+?>
