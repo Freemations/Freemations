@@ -72,6 +72,15 @@ top:0%;
 
 }
 
+svg.Usuario {
+
+	background:#fff;
+	padding:5%;
+	width:10%;
+	height:10%;
+
+}
+
 form.d-flex {
 
 	float: right;
